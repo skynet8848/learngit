@@ -27,6 +27,9 @@ $git checkout -- readme.txt
 $git reset HEAD readme.txt
 $git checkout -- readme.txt
 
+$git remote add origin git@github.com:skynet8848/learngit.git
+$git push -u origin master
+
 $git push origin master
 SSH:
 $git clone git@github.com:skynet8848/gitskills.git
