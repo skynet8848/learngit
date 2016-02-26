@@ -20,6 +20,13 @@ $git reset --hard HEAD^
 $git reset --hard 9445090
 $git reflog
 
+$git diff HEAD -- readme.txt
+
+$git checkout -- readme.txt
+
+$git reset HEAD readme.txt
+$git checkout -- readme.txt
+
 $git push origin master
 SSH:
 $git clone git@github.com:skynet8848/gitskills.git
